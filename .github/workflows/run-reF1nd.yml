@@ -95,7 +95,7 @@ jobs:
           cd ..
           #wget https://github.com/Sagernet/sing-tun/archive/refs/tags/v${SING_TUN_VERSION}.tar.gz -O sing-tun-${SING_TUN_VERSION}.tar.gz
           #tar -xf sing-tun-${SING_TUN_VERSION}.tar.gz && mv sing-tun-${SING_TUN_VERSION} sing-tun
-          git clone -b main https://github.com/Sagernet/sing-tun sing-tun
+          git clone -b stable https://github.com/Sagernet/sing-tun sing-tun
           ls -lha
 
       - name: Apply patches
